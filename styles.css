@@ -62,7 +62,7 @@ header{
     margin-left: auto;
  }
 .links a, .links button{
-    font-size: 1.725rem;
+    font-size: 1.25rem;
     font-weight: 400;
     margin: 1rem;
     transition: var(--transition);
@@ -209,7 +209,14 @@ align-items: center;
     .icon{
         margin-bottom: 20px;
     }
+
+    .links a, .links button{
+      
+        margin: 5px;
+       
+    }
 }
+
 
 
 
