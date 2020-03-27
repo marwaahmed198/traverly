@@ -195,6 +195,11 @@ align-items: center;
     .features{
         grid-column: 1/ span 8;
     }
+    .links a, .links button{
+      
+        margin: 5px;
+       
+    }
 }
 
 @media only screen and (max-width:650px){
@@ -210,14 +215,24 @@ align-items: center;
         margin-bottom: 20px;
     }
 
-    .links a, .links button{
+    .links {
+        margin-top: 13%;
+      margin-right: 10px;
+       display: flex;
+       flex-direction:row;
+       align-self: flex-start;
+       
       
-        margin: 5px;
+      
        
     }
+    .links a {
+      
+       margin-top: 5%;
+       margin-left: 4px;
+   
+
+
+
+
 }
-
-
-
-
-
