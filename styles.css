@@ -239,4 +239,10 @@ align-items: center;
         width: 120px;
       
     }
+
+    .features    {
+       
+       padding-left:38px;
+    }
+
 }
